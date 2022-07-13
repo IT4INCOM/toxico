@@ -11,10 +11,10 @@ const viewport = {
 
 const Navbar = () => {
   const categories = [
-    { name: "electronics", id: 0, route: "/category/electronics" },
-    { name: "jewelery", id: 1, route: "/category/jewelery" },
-    { name: "men's clothing", id: 2, route: "/category/men's clothing" },
-    { name: "women's clothing", id: 3, route: "/category/women's clothing" },
+    { name: "Fibra", id: 0, route: "/category/electronics" },
+    { name: "Registros", id: 1, route: "/category/jewelery" },
+    { name: "Ferreteria", id: 2, route: "/category/men's clothing" },
+    { name: "Seguridad", id: 3, route: "/category/women's clothing" },
   ];
 
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
         <Link to="/">
           <img style={styles.logo} src={logo} alt="" />
         </Link>
-        <h1 style={styles.title}>Mi tienda online</h1>
+        <h1 style={styles.title}>INCOM</h1>
       </div>
 
       <div style={styles.links}>
@@ -45,7 +45,7 @@ const Navbar = () => {
 const styles = {
   container: {
     display: viewport.width > 900 ? "flex" : "none",
-    backgroundColor: COLORS.green,
+    backgroundColor: COLORS.blue,
     justifyContent: "space-between",
     alignItems: "center",
     width: "100%",
