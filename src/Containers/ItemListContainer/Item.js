@@ -13,16 +13,17 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     margin: 20,
-    backgroundColor: "rgba(249, 220, 92, 0.3)",
+    backgroundColor: "rgba(249, 220, 92, 0.3)"
   },
   title: {
     textOverflow: "ellipsis",
     overflow: "hidden",
     height: 100,
-  },
+  }
 };
 
 const Item = ({ product }) => {
+
   return (
     <Card sx={{ maxWidth: 345 }} style={styles.container}>
       <CardActionArea>
